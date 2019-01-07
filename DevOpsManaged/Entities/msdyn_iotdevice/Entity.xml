@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="IoT Device" OriginalName="IoT Device">msdyn_iotdevice</Name>
+  <RibbonDiffXml />
+</Entity>

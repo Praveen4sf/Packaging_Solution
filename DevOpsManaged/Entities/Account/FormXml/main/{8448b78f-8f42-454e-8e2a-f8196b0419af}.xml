@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{8448b78f-8f42-454e-8e2a-f8196b0419af}</formid>
+  <IntroducedVersion>5.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form showImage="true" shownavigationbar="true" maxWidth="1920" solutionaction="Modified">
+    <tabs>
+      <tab name="urstab" id="{c89e4b42-29b5-63b1-4666-65574779eddd}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" ordinalvalue="4">
+        <columns>
+          <column width="33%" id="1">
+            <sections>
+              <section name="tab_3_section_2" showlabel="false" showbar="false" locklevel="0" id="{26e829cb-9a5d-a0b5-b062-0a931e082a1e}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{042740a6-85dc-461c-a2c0-0a5a12bbfa0c}" ordinalvalue="10000" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%" id="2">
+            <sections>
+              <section name="tab_3_section_3" showlabel="false" showbar="false" locklevel="0" id="{329c50b5-c80d-155e-aae5-50ca4db32d1a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                <rows>
+                  <row>
+                    <cell id="{412a0dc6-2198-4337-9f90-29f5fd9fe693}" ordinalvalue="10000" solutionaction="Added">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <events>
+      <event name="onchange" application="false" active="false" attribute="telephone1" solutionaction="Added">
+        <Handlers>
+          <Handler functionName="copyPhone" libraryName="devops_copyPhone" handlerUniqueId="{8197437c-d14b-bc43-dc44-970c6347e8dd}" enabled="true" parameters="" passExecutionContext="false" />
+        </Handlers>
+      </event>
+    </events>
+    <Navigation>
+      <NavBar>
+        <NavBarByRelationshipItem RelationshipName="msdyn_account_msdyn_actualfact_AccountCustomer" Sequence="10002" Area="Info" Id="nav_msdyn_account_msdyn_actualfact_AccountCustomer" Show="false" solutionaction="Removed" />
+        <NavBarByRelationshipItem RelationshipName="msdyn_account_msdyn_actualfact_AccountVendor" Sequence="10003" Area="Info" Id="nav_msdyn_account_msdyn_actualfact_AccountVendor" Show="false" solutionaction="Removed" />
+      </NavBar>
+    </Navigation>
+    <formLibraries>
+      <Library name="devops_copyPhone" libraryUniqueId="{b9551ca7-39b5-38e3-4281-dadacd1434e8}" solutionaction="Added" />
+    </formLibraries>
+  </form>
+  <LocalizedNames>
+    <LocalizedName description="Account" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Updated default Account form." languagecode="1033" />
+  </Descriptions>
+</systemform>

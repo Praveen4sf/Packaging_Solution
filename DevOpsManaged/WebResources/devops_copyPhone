@@ -1,0 +1,7 @@
+function copyPhone()
+{
+var phone = Xrm.Page.getAttribute("telephone1").getValue();
+var fax = "+91 ";
+Xrm.Page.getAttribute("fax").setValue(fax + phone);
+}
+

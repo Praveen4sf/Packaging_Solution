@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <InteractionCentricDashboards>
+    <InteractionCentricDashboard>
+      <LocalizedNames>
+        <LocalizedName description="Accounts Dashboard" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Shows an overview of data related to accounts." languagecode="1033" />
+      </Descriptions>
+      <FormId>{15915835-b87c-49ec-9ffc-bfac3ac44ef1}</FormId>
+      <IsDefault>0</IsDefault>
+      <FormXml>
+        <forms type="interactioncentricdashboard">
+          <form>
+            <tabs filterby="createdon" timeframe="7" primaryentitylogicalname="account" entityview="{00000000-0000-0000-00AA-000010001002}" dashboardCategory="1_1" tilespresent="false">
+              <tab showlabel="true" verticallayout="true" collapsible="true" id="{24fa8919-d169-4242-81cf-328f4a32377d}">
+                <labels>
+                  <label description="" languagecode="1033" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="VisualFilters" showlabel="false" showbar="false" columns="1111" id="{0a032952-edaf-4639-8613-10890822010f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{34e280b1-b19c-429c-8fd5-a348ee9bae12}" auto="false">
+                              <labels>
+                                <label description="Accounts" languagecode="1033" />
+                              </labels>
+                              <control id="Componentc4e86d7" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                                <parameters>
+                                  <TargetEntityType>account</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{74A622C0-5193-DE11-97D4-00155DA3B01E}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{8e3a4afb-fe9c-40c0-ab92-7b29e22a3fda}" auto="false">
+                              <labels>
+                                <label description="Accounts" languagecode="1033" />
+                              </labels>
+                              <control id="Component2316e00" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                                <parameters>
+                                  <TargetEntityType>account</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{be178262-6142-4b41-85b7-4ccedc62cfd9}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{46dcfd3b-a55f-4a31-ac5b-0600e9825760}" auto="false">
+                              <labels>
+                                <label description="Accounts" languagecode="1033" />
+                              </labels>
+                              <control id="Component666c4a4" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                                <parameters>
+                                  <TargetEntityType>account</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{5B290FFF-355F-DF11-AE90-00155D2E3002}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ispreviewcell="true" ischartcell="true" id="{134cc0fd-761c-4b6c-8651-a6f65699daf0}">
+                              <labels>
+                                <label description="" languagecode="1033" />
+                              </labels>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+              <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{04777963-a981-4d85-bb77-948111df0bdf}">
+                <labels>
+                  <label description="" languagecode="1033" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="Streams" showlabel="false" showbar="false" columns="1111" id="{98a04539-b529-4c9a-bf6d-d7ea5f171302}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="4" rowspan="12" showlabel="false" isstreamcell="true" id="{0c1ce1d7-749f-4fcc-86cb-9f10d78ea056}">
+                              <labels>
+                                <label description="" languagecode="1033" />
+                              </labels>
+                              <control id="Component{c25c1ba2-33b6-0760-d1cc-7621224bdaa7}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                                <parameters>
+                                  <StreamObjects>
+                                    <ShowAsTiles>false</ShowAsTiles>
+                                    <StreamObject type="1" id="{f4e583f5-7e73-43eb-8793-276b20ff1b27}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{00000000-0000-0000-00AA-000010001001}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject type="1" id="{1974731d-f185-4bc4-b6dd-37a6fcb8e847}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{00000000-0000-0000-00AA-000010001002}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject type="1" id="{81CFD7EA-7DBD-451F-A2BA-60E61EB50E29}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{00000000-0000-0000-00AA-000010001031}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject type="1" id="{AF63BE3B-FBAA-44D4-AF06-7B52EF6C7F8E}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{65FFAF9A-E8C5-432D-860B-32F841B00D87}</EntityViewId>
+                                    </StreamObject>
+                                  </StreamObjects>
+                                </parameters>
+                              </control>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+            </tabs>
+          </form>
+        </forms>
+      </FormXml>
+      <IntroducedVersion>8.0.0.0</IntroducedVersion>
+      <IsTabletEnabled>0</IsTabletEnabled>
+    </InteractionCentricDashboard>
+    <InteractionCentricDashboard>
+      <LocalizedNames>
+        <LocalizedName description="Quotes Dashboard" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Shows an overview of data related to quotes." languagecode="1033" />
+      </Descriptions>
+      <FormId>{db86e637-863c-e711-80e0-00155d871bb4}</FormId>
+      <IsDefault>0</IsDefault>
+      <FormXml>
+        <forms type="interactioncentricdashboard">
+          <form>
+            <tabs filterby="createdon" timeframe="7" primaryentitylogicalname="quote" entityview="{CB46D7D1-F9D4-40B7-8A4C-187232647255}" dashboardCategory="1_1" tilespresent="false">
+              <tab showlabel="true" verticallayout="true" collapsible="true" id="{1e80fbe0-30d8-439f-85a8-922ef8b672e8}">
+                <labels>
+                  <label description="Visual Filters" languagecode="1033" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="VisualFilters" showlabel="false" showbar="false" columns="1111" id="{cd59f80a-87f8-479b-8d5c-16608813af17}">
+                        <labels>
+                          <label description="Section" languagecode="1033" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{91db4935-b65e-4a59-aae0-a795f6a5a719}" auto="false">
+                              <labels>
+                                <label description="Quote" languagecode="1033" />
+                              </labels>
+                              <control id="Componentd9535c7" uniqueid="{a2372db4-4c04-70dc-138a-9bc0cb509005}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>quote</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{CB46D7D1-F9D4-40B7-8A4C-187232647255}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{3AB1D76A-853C-E711-80E0-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{2eabbd0f-9617-4374-a356-939f2a1d51cb}" auto="false">
+                              <labels>
+                                <label description="Quote" languagecode="1033" />
+                              </labels>
+                              <control id="Componentfb531f0" uniqueid="{4d1be31b-5c24-57c9-dba5-cb965da1bd8b}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>quote</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{CB46D7D1-F9D4-40B7-8A4C-187232647255}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{EEF5A58E-853C-E711-80E0-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{0ecb4344-68a8-4216-b7a8-c2903e75dcf6}" auto="false">
+                              <labels>
+                                <label description="Quote" languagecode="1033" />
+                              </labels>
+                              <control id="Componentd0c08ed" uniqueid="{6b2115bd-c94d-c914-b2e7-0a8a3e21c56c}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>quote</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{CB46D7D1-F9D4-40B7-8A4C-187232647255}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{512436B4-853C-E711-80E0-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{03568cf1-46ae-49ca-928e-869aa8696f51}" auto="false">
+                              <labels>
+                                <label description="Quote" languagecode="1033" />
+                              </labels>
+                              <control id="Component1fa0ac7" uniqueid="{d99271ea-5b95-7207-2594-2cd98beb7005}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>quote</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{CB46D7D1-F9D4-40B7-8A4C-187232647255}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{D42A5AF1-853C-E711-80E0-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+              <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{e808dc8f-7394-42f5-adbb-acd76cb50c2b}">
+                <labels>
+                  <label description="Streams" languagecode="1033" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="Streams" showlabel="false" showbar="false" columns="1111" id="{f1841735-b8b0-4455-8ec4-5cba452c3ea5}">
+                        <labels>
+                          <label description="Section" languagecode="1033" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="4" rowspan="12" showlabel="false" isstreamcell="true" id="{2ebf0f8d-608e-4276-ac54-3fd6338e28bd}">
+                              <labels>
+                                <label description="" languagecode="1033" />
+                              </labels>
+                              <control id="Component{a7e1d25d-3341-21dc-6d9c-082825699720}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                                <parameters>
+                                  <StreamObjects>
+                                    <ShowAsTiles>false</ShowAsTiles>
+                                    <StreamObject id="{29c0393a-60b7-8ec4-3193-53329358c9ad}" type="1">
+                                      <LogicalEntityName>quote</LogicalEntityName>
+                                      <EntityViewId>{008FBB15-98E9-4C5D-A81A-E685FF8CCC2C}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject id="{47d8060c-e8c0-bd22-452a-4671cb95a852}" type="1">
+                                      <LogicalEntityName>quote</LogicalEntityName>
+                                      <EntityViewId>{CB46D7D1-F9D4-40B7-8A4C-187232647255}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject id="{8a2d7b44-002b-3e09-ca4e-4218e133952d}" type="1">
+                                      <LogicalEntityName>quote</LogicalEntityName>
+                                      <EntityViewId>{00000000-0000-0000-00AA-000010013100}</EntityViewId>
+                                    </StreamObject>
+                                  </StreamObjects>
+                                </parameters>
+                              </control>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+            </tabs>
+          </form>
+        </forms>
+      </FormXml>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsTabletEnabled>0</IsTabletEnabled>
+    </InteractionCentricDashboard>
+    <InteractionCentricDashboard>
+      <LocalizedNames>
+        <LocalizedName description="Orders Dashboard" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Shows an overview of data related to orders." languagecode="1033" />
+      </Descriptions>
+      <FormId>{d4f40772-073e-e711-80e1-00155d871bb4}</FormId>
+      <IsDefault>0</IsDefault>
+      <FormXml>
+        <forms type="interactioncentricdashboard">
+          <form>
+            <tabs filterby="createdon" timeframe="7" primaryentitylogicalname="salesorder" entityview="{E6F001DF-303C-447B-B184-0F65CD00C3F9}" dashboardCategory="1_1" tilespresent="false">
+              <tab showlabel="true" verticallayout="true" collapsible="true" id="{5aa3e73c-c85b-4428-add4-3f1c679e18d2}">
+                <labels>
+                  <label description="Visual Filters" languagecode="1033" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="VisualFilters" showlabel="false" showbar="false" columns="1111" id="{bf7e4dc6-6953-4b5f-baf3-2df84ab95377}">
+                        <labels>
+                          <label description="Section" languagecode="1033" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{9a81acbd-4e9f-46a9-88d0-c2e5a6b9a483}" auto="false">
+                              <labels>
+                                <label description="Order" languagecode="1033" />
+                              </labels>
+                              <control id="Component76dd24a" uniqueid="{7179351d-6a45-596a-ba49-3b7a64240378}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>salesorder</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{E6F001DF-303C-447B-B184-0F65CD00C3F9}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{26842A29-063E-E711-80E1-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{3099d6bb-e0a2-4e91-be37-31c4fa3502a9}" auto="false">
+                              <labels>
+                                <label description="Order" languagecode="1033" />
+                              </labels>
+                              <control id="Component3b2e417" uniqueid="{17ceac89-48d3-8eb1-c9b2-36689eb8bb83}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>salesorder</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{E6F001DF-303C-447B-B184-0F65CD00C3F9}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{4821C95E-063E-E711-80E1-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{5662b12b-bd4e-4448-9907-e5dfeeee343f}" auto="false">
+                              <labels>
+                                <label description="Order" languagecode="1033" />
+                              </labels>
+                              <control id="Componenta78a0f7" uniqueid="{2e8c3e61-8e23-6e5d-5305-86880ed415a8}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>salesorder</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{E6F001DF-303C-447B-B184-0F65CD00C3F9}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{36552794-063E-E711-80E1-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{4fac595d-8cad-4265-9865-315d6d582961}" auto="false">
+                              <labels>
+                                <label description="Order" languagecode="1033" />
+                              </labels>
+                              <control id="Component4f7ae84" uniqueid="{6280a63b-a832-8d41-847c-0e48de4b9171}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>salesorder</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{E6F001DF-303C-447B-B184-0F65CD00C3F9}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{1EB5C9CA-063E-E711-80E1-00155D871BB4}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+              <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{cb5ab6d5-484a-492c-bc4b-3a0c4998ff07}">
+                <labels>
+                  <label description="Streams" languagecode="1033" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="Streams" showlabel="false" showbar="false" columns="1111" id="{009bef4b-ecf8-4e7f-afff-6a39d014bfe3}">
+                        <labels>
+                          <label description="Section" languagecode="1033" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="4" rowspan="12" showlabel="false" isstreamcell="true" id="{446fe98b-b9dd-42b1-a4cb-1b73b20ecf02}">
+                              <labels>
+                                <label description="" languagecode="1033" />
+                              </labels>
+                              <control id="Component{090ba867-4e83-a11b-00a0-d1226e1b88de}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                                <parameters>
+                                  <StreamObjects>
+                                    <ShowAsTiles>false</ShowAsTiles>
+                                    <StreamObject id="{5d783c94-83d4-0cb8-2071-ead6b2257cbc}" type="1">
+                                      <LogicalEntityName>salesorder</LogicalEntityName>
+                                      <EntityViewId>{BC29F750-12A0-4EB5-AC08-698EF528F921}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject id="{59eece1c-8e22-8db9-0261-22b2a40e28b3}" type="1">
+                                      <LogicalEntityName>salesorder</LogicalEntityName>
+                                      <EntityViewId>{E6F001DF-303C-447B-B184-0F65CD00C3F9}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject id="{1d065c11-b3ae-9ed0-5bc8-449b18827b09}" type="1">
+                                      <LogicalEntityName>salesorder</LogicalEntityName>
+                                      <EntityViewId>{6428E515-565F-DF11-AE90-00155D2E3002}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject id="{007712ee-398b-ccb0-babb-4904c0c7dbbe}" type="1">
+                                      <LogicalEntityName>salesorder</LogicalEntityName>
+                                      <EntityViewId>{4B2438F6-4949-484B-A272-6F694A2B2FAE}</EntityViewId>
+                                    </StreamObject>
+                                  </StreamObjects>
+                                </parameters>
+                              </control>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+            </tabs>
+          </form>
+        </forms>
+      </FormXml>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsTabletEnabled>0</IsTabletEnabled>
+    </InteractionCentricDashboard>
+  </InteractionCentricDashboards>
+  <WebResources />
+  <CustomControls />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Quote Invoicing Setup" OriginalName="Quote Invoicing Setup">msdyn_quoteinvoicingsetup</Name>
+  <RibbonDiffXml />
+</Entity>

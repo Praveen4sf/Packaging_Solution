@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Order Invoicing Setup" OriginalName="Order Invoicing Setup">msdyn_orderinvoicingsetup</Name>
+  <RibbonDiffXml />
+</Entity>

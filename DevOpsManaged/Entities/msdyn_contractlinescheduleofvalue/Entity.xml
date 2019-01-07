@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="Project Contract Line Milestone" OriginalName="Project Contract Line Milestone">msdyn_contractlinescheduleofvalue</Name>
+  <RibbonDiffXml />
+</Entity>
