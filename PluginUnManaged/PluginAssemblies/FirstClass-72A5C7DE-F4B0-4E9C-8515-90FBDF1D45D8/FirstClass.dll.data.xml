@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="FirstClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c06473cd33bca2d4" PluginAssemblyId="72a5c7de-f4b0-4e9c-8515-90fbdf1d45d8" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/FirstClass-72A5C7DE-F4B0-4E9C-8515-90FBDF1D45D8/FirstClass.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="FirstClass.CreateTask, FirstClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c06473cd33bca2d4" PluginTypeId="b686e0bc-b8fd-4079-93eb-df6f1ee81359" Name="FirstClass.CreateTask">
+      <FriendlyName>8521b1a2-aa60-494f-9aae-30897c0609f6</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

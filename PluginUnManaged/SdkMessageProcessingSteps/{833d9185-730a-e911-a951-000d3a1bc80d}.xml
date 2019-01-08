@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="FirstClass.CreateTask : Create of lead" SdkMessageProcessingStepId="{833d9185-730a-e911-a951-000d3a1bc80d}">
+  <PluginTypeName>FirstClass.CreateTask, FirstClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c06473cd33bca2d4</PluginTypeName>
+  <PluginTypeId>b686e0bc-b8fd-4079-93eb-df6f1ee81359</PluginTypeId>
+  <PrimaryEntity>lead</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>0</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>
