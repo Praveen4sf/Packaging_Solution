@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping>
        <!-- Match specific named files to an alternate folder -->
-       <FileToFile map="FirstClass.dll" to="..\..\Plugins\bin\**\FirstClass.Plugins.dll" />
-       <!-- Match any file in and under WebResources to an alternate set of sub-folders -->
-       <FileToPath map="WebResources\*.*" to="..\..\WebResources\**" />-->
-       <FileToPath map="WebResources\**\*.*" to="..\..\WebResources\**" />-->
+       <FileToFile map="Plugin_unmanaged.zip" to="https://github.com/Praveen4sf/Packaging_Solution/blob/master/Plugin_unmanaged.zip" />
 </Mapping>
